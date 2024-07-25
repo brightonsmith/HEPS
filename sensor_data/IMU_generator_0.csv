@@ -1,0 +1,1 @@
+time(s),accelX(m/s^2),accelY(m/s^2),accelZ(m/s^2),accelMagnitude(m/s^2),gyroX(deg/s),gyroY(deg/s),gyroZ(deg/s),magX(uT),magY(uT),magZ(uT),magMagnitude(uT)

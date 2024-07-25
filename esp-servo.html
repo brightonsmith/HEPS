@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        body { 
+            display: flex; 
+            justify-content: center; 
+            align-items: center; 
+            height: 100vh; 
+            font-family: Arial, sans-serif; 
+        }
+        .container { 
+            text-align: center; 
+        }
+        .slider { 
+            width: 100%; 
+            max-width: 300px; 
+        }
+        .button { 
+            display: inline-block; 
+            padding: 10px 20px; 
+            font-size: 20px; 
+            cursor: pointer; 
+            text-align: center; 
+            text-decoration: none; 
+            outline: none; 
+            color: #fff; 
+            background-color: #4CAF50; 
+            border: none; 
+            border-radius: 15px; 
+            box-shadow: 0 9px #999; 
+        }
+        .button:hover { 
+            background-color: #3e8e41; 
+        }
+        .button:active { 
+            background-color: #3e8e41; 
+            box-shadow: 0 5px #666; 
+            transform: translateY(4px); 
+        }
+        #killButton { 
+            background-color: red; 
+            color: white; 
+            padding: 20px 40px; 
+            font-size: 24px; 
+            margin-top: 20px; 
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Servo Control Center</h1>
+        <p>Position: <span id="servoPos"></span></p>
+        <input type="range" min="0" max="180" class="slider" id="servoSlider" onchange="servo(this.value)" value="0"/>
+        <br/><br/>
+        <button class="button" id="upButton">Up</button>
+        <button class="button" id="downButton">Down</button>
+        <br/><br/>
+        <button class="button" id="button_25" style="background-color: green; color: white;">25%</button>
+        <button class="button" id="button_50" style="background-color: green; color: white;">50%</button>
+        <button class="button" id="button_75" style="background-color: green; color: white;">75%</button>
+        <button class="button" id="maxButton" style="background-color: green; color: white;">MAX</button>
+        <br/><br/>
+        <button class="button" id="killButton">KILL</button>
+        <audio id="killSound" src="https://audio.jukehost.co.uk/WZouY1JxlTfazBV9wwZeHlW60jgBsGVa"></audio>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script>
+        var slider = document.getElementById("servoSlider");
+        var servoP = document.getElementById("servoPos");
+        servoP.innerHTML = slider.value;
+
+        slider.oninput = function() { 
+            servoP.innerHTML = this.value; 
+            servo(this.value); 
+        };
+
+        $.ajaxSetup({timeout:1000});
+
+        function servo(pos) {
+            $.get("/?value=" + pos + "&");
+        }
+
+        document.getElementById("upButton").addEventListener("click", function() { adjustServo(10); });
+        document.getElementById("downButton").addEventListener("click", function() { adjustServo(-10); });
+
+        document.getElementById("button_25").addEventListener("click", function() { 
+            slider.value = 45; 
+            servoP.innerHTML = 45; 
+            servo(45); 
+        });
+        
+        document.getElementById("button_50").addEventListener("click", function() { 
+            slider.value = 90; 
+            servoP.innerHTML = 90; 
+            servo(90); 
+        });
+        
+        document.getElementById("button_75").addEventListener("click", function() { 
+            slider.value = 135; 
+            servoP.innerHTML = 135; 
+            servo(135); 
+        });
+
+        document.getElementById("maxButton").addEventListener("click", function() { 
+            slider.value = 180; 
+            servoP.innerHTML = 180; 
+            servo(180); 
+        });
+
+        document.getElementById("killButton").addEventListener("click", function() { 
+            slider.value = 0; 
+            servoP.innerHTML = 0; 
+            servo(0); 
+
+            var audio = document.getElementById('killSound');
+            audio.play();
+        });
+
+        function adjustServo(offset) {
+            var newValue = parseInt(slider.value) + offset;
+            if (newValue < 0) { 
+                newValue = 0; 
+            }
+            if (newValue > 180) { 
+                newValue = 180; 
+            }
+            slider.value = newValue; 
+            servoP.innerHTML = newValue; 
+            servo(newValue);
+        }
+    </script>
+</body>
+</html>

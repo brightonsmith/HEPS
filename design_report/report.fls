@@ -1,0 +1,294 @@
+PWD C:\Users\brigh\HEPS\Math and Physics\design_report
+INPUT .\report.tex
+OUTPUT report.log
+OUTPUT report.log
+INPUT C:\Users\brigh\AppData\Local\Programs\MiKTeX\tex\latex\latexconfig\lualatexquotejobname.lua
+INPUT C:\Users\brigh\AppData\Local\Programs\MiKTeX\tex\latex\base\ltluatex.lua
+INPUT C:\Users\brigh\AppData\Local\Programs\MiKTeX\tex\luatex\luaotfload\luaotfload-main.lua
+INPUT C:\Users\brigh\AppData\Local\Programs\MiKTeX\tex\luatex\luaotfload\luaotfload.lua
+INPUT C:\Users\brigh\AppData\Local\Programs\MiKTeX\tex\luatex\luaotfload\luaotfload-init.lua
+INPUT C:\Users\brigh\AppData\Local\Programs\MiKTeX\tex\luatex\lualibs\lualibs.lua
+INPUT C:\Users\brigh\AppData\Local\Programs\MiKTeX\tex\luatex\lualibs\lualibs-basic.lua
+INPUT C:\Users\brigh\AppData\Local\Programs\MiKTeX\tex\luatex\lualibs\lualibs-basic-merged.lua
+INPUT C:\Users\brigh\AppData\Local\Programs\MiKTeX\tex\luatex\lualibs\lualibs-compat.lua
+INPUT C:\Users\brigh\AppData\Local\Programs\MiKTeX\tex\luatex\lualibs\lualibs-extended.lua
+INPUT C:\Users\brigh\AppData\Local\Programs\MiKTeX\tex\luatex\lualibs\lualibs-extended-merged.lua
+INPUT C:\Users\brigh\AppData\Local\Programs\MiKTeX\tex\luatex\luaotfload\luaotfload-log.lua
+INPUT C:\Users\brigh\AppData\Local\Programs\MiKTeX\tex\luatex\luaotfload\fontloader-basics-gen.lua
+INPUT C:\Users\brigh\AppData\Local\Programs\MiKTeX\tex\luatex\luaotfload\luaotfload-parsers.lua
+INPUT C:\Users\brigh\AppData\Local\Programs\MiKTeX\tex\luatex\luaotfload\luaotfload-configuration.lua
+INPUT C:\Users\brigh\AppData\Local\Programs\MiKTeX\tex\luatex\luaotfload\luaotfload-status.lua
+INPUT C:\Users\brigh\AppData\Local\Programs\MiKTeX\tex\luatex\luaotfload\fontloader-2023-12-28.lua
+INPUT C:\Users\brigh\AppData\Local\Programs\MiKTeX\tex\luatex\luaotfload\luaotfload-fallback.lua
+INPUT C:\Users\brigh\AppData\Local\Programs\MiKTeX\tex\luatex\luaotfload\luaotfload-multiscript.lua
+INPUT C:\Users\brigh\AppData\Local\Programs\MiKTeX\tex\luatex\luaotfload\luaotfload-scripts.lua
+INPUT C:\Users\brigh\AppData\Local\Programs\MiKTeX\tex\luatex\luaotfload\luaotfload-loaders.lua
+INPUT C:\Users\brigh\AppData\Local\Programs\MiKTeX\tex\luatex\luaotfload\luaotfload-database.lua
+INPUT C:\Users\brigh\AppData\Local\Programs\MiKTeX\tex\luatex\luaotfload\luaotfload-unicode.lua
+INPUT C:\Users\brigh\AppData\Local\Programs\MiKTeX\tex\luatex\lua-uni-algos\lua-uni-case.lua
+INPUT C:\Users\brigh\AppData\Local\Programs\MiKTeX\tex\luatex\lua-uni-algos\lua-uni-parse.lua
+INPUT C:\Users\brigh\AppData\Local\Programs\MiKTeX\tex\luatex\luaotfload\luaotfload-realpath.lua
+INPUT C:\Users\brigh\AppData\Local\Programs\MiKTeX\tex\luatex\luaotfload\luaotfload-colors.lua
+INPUT C:\Users\brigh\AppData\Local\Programs\MiKTeX\tex\luatex\luaotfload\luaotfload-resolvers.lua
+INPUT C:\Users\brigh\AppData\Local\Programs\MiKTeX\tex\luatex\luaotfload\luaotfload-features.lua
+INPUT C:\Users\brigh\AppData\Local\Programs\MiKTeX\tex\luatex\lua-uni-algos\lua-uni-normalize.lua
+INPUT C:\Users\brigh\AppData\Local\Programs\MiKTeX\tex\luatex\luaotfload\luaotfload-arabic.lua
+INPUT C:\Users\brigh\AppData\Local\Programs\MiKTeX\tex\luatex\luaotfload\luaotfload-harf-define.lua
+INPUT C:\Users\brigh\AppData\Local\Programs\MiKTeX\tex\luatex\luaotfload\luaotfload-harf-var-cff2.lua
+INPUT C:\Users\brigh\AppData\Local\Programs\MiKTeX\tex\luatex\luaotfload\luaotfload-harf-var-t2-writer.lua
+INPUT C:\Users\brigh\AppData\Local\Programs\MiKTeX\tex\luatex\luaotfload\luaotfload-harf-var-ttf.lua
+INPUT C:\Users\brigh\AppData\Local\Programs\MiKTeX\tex\luatex\luaotfload\luaotfload-harf-plug.lua
+INPUT C:\Users\brigh\AppData\Local\Programs\MiKTeX\tex\luatex\luaotfload\luaotfload-letterspace.lua
+INPUT C:\Users\brigh\AppData\Local\Programs\MiKTeX\tex\luatex\luaotfload\luaotfload-embolden.lua
+INPUT C:\Users\brigh\AppData\Local\Programs\MiKTeX\tex\luatex\luaotfload\luaotfload-notdef.lua
+INPUT C:\Users\brigh\AppData\Local\Programs\MiKTeX\tex\luatex\luaotfload\luaotfload-suppress.lua
+INPUT C:\Users\brigh\AppData\Local\Programs\MiKTeX\tex\luatex\luaotfload\luaotfload-szss.lua
+INPUT C:\Users\brigh\AppData\Local\Programs\MiKTeX\tex\luatex\luaotfload\luaotfload-auxiliary.lua
+INPUT C:\Users\brigh\AppData\Local\Programs\MiKTeX\tex\luatex\luaotfload\luaotfload-tounicode.lua
+INPUT C:\Users\brigh\AppData\Local\Programs\MiKTeX\tex\luatex\luaotfload\luaotfload-case.lua
+INPUT C:\Users\brigh\AppData\Local\Programs\MiKTeX\tex\luatex\luaotfload\luaotfload-bcp47.lua
+INPUT C:\Users\brigh\AppData\Local\Programs\MiKTeX\tex\latex\l3kernel\expl3.lua
+INPUT C:\Users\brigh\AppData\Local\Programs\MiKTeX\tex\latex\base\article.cls
+INPUT C:\Users\brigh\AppData\Local\Programs\MiKTeX\tex\latex\base\article.cls
+INPUT C:\Users\brigh\AppData\Local\Programs\MiKTeX\tex\latex\base\size10.clo
+INPUT C:\Users\brigh\AppData\Local\Programs\MiKTeX\tex\latex\base\size10.clo
+INPUT C:\Users\brigh\AppData\Local\MiKTeX\luatex-cache\generic\fonts\otl\lmroman10-regular.luc
+INPUT C:\Users\brigh\AppData\Local\Programs\MiKTeX\tex\latex\graphics\graphicx.sty
+INPUT C:\Users\brigh\AppData\Local\Programs\MiKTeX\tex\latex\graphics\graphicx.sty
+INPUT C:\Users\brigh\AppData\Local\Programs\MiKTeX\tex\latex\graphics\keyval.sty
+INPUT C:\Users\brigh\AppData\Local\Programs\MiKTeX\tex\latex\graphics\keyval.sty
+INPUT C:\Users\brigh\AppData\Local\Programs\MiKTeX\tex\latex\graphics\graphics.sty
+INPUT C:\Users\brigh\AppData\Local\Programs\MiKTeX\tex\latex\graphics\graphics.sty
+INPUT C:\Users\brigh\AppData\Local\Programs\MiKTeX\tex\latex\graphics\trig.sty
+INPUT C:\Users\brigh\AppData\Local\Programs\MiKTeX\tex\latex\graphics\trig.sty
+INPUT C:\Users\brigh\AppData\Local\Programs\MiKTeX\tex\latex\graphics-cfg\graphics.cfg
+INPUT C:\Users\brigh\AppData\Local\Programs\MiKTeX\tex\latex\graphics-cfg\graphics.cfg
+INPUT C:\Users\brigh\AppData\Local\Programs\MiKTeX\tex\latex\graphics-def\luatex.def
+INPUT C:\Users\brigh\AppData\Local\Programs\MiKTeX\tex\latex\graphics-def\luatex.def
+INPUT C:\Users\brigh\AppData\Local\Programs\MiKTeX\tex\latex\amsmath\amsmath.sty
+INPUT C:\Users\brigh\AppData\Local\Programs\MiKTeX\tex\latex\amsmath\amsmath.sty
+INPUT C:\Users\brigh\AppData\Local\Programs\MiKTeX\tex\latex\amsmath\amstext.sty
+INPUT C:\Users\brigh\AppData\Local\Programs\MiKTeX\tex\latex\amsmath\amstext.sty
+INPUT C:\Users\brigh\AppData\Local\Programs\MiKTeX\tex\latex\amsmath\amsgen.sty
+INPUT C:\Users\brigh\AppData\Local\Programs\MiKTeX\tex\latex\amsmath\amsgen.sty
+INPUT C:\Users\brigh\AppData\Local\Programs\MiKTeX\tex\latex\amsmath\amsbsy.sty
+INPUT C:\Users\brigh\AppData\Local\Programs\MiKTeX\tex\latex\amsmath\amsbsy.sty
+INPUT C:\Users\brigh\AppData\Local\Programs\MiKTeX\tex\latex\amsmath\amsopn.sty
+INPUT C:\Users\brigh\AppData\Local\Programs\MiKTeX\tex\latex\amsmath\amsopn.sty
+INPUT C:\Users\brigh\AppData\Local\Programs\MiKTeX\tex\latex\hyperref\hyperref.sty
+INPUT C:\Users\brigh\AppData\Local\Programs\MiKTeX\tex\latex\hyperref\hyperref.sty
+INPUT C:\Users\brigh\AppData\Local\Programs\MiKTeX\tex\generic\iftex\iftex.sty
+INPUT C:\Users\brigh\AppData\Local\Programs\MiKTeX\tex\generic\iftex\iftex.sty
+INPUT C:\Users\brigh\AppData\Local\Programs\MiKTeX\tex\latex\kvsetkeys\kvsetkeys.sty
+INPUT C:\Users\brigh\AppData\Local\Programs\MiKTeX\tex\latex\kvsetkeys\kvsetkeys.sty
+INPUT C:\Users\brigh\AppData\Local\Programs\MiKTeX\tex\generic\kvdefinekeys\kvdefinekeys.sty
+INPUT C:\Users\brigh\AppData\Local\Programs\MiKTeX\tex\generic\kvdefinekeys\kvdefinekeys.sty
+INPUT C:\Users\brigh\AppData\Local\Programs\MiKTeX\tex\generic\pdfescape\pdfescape.sty
+INPUT C:\Users\brigh\AppData\Local\Programs\MiKTeX\tex\generic\pdfescape\pdfescape.sty
+INPUT C:\Users\brigh\AppData\Local\Programs\MiKTeX\tex\generic\ltxcmds\ltxcmds.sty
+INPUT C:\Users\brigh\AppData\Local\Programs\MiKTeX\tex\generic\ltxcmds\ltxcmds.sty
+INPUT C:\Users\brigh\AppData\Local\Programs\MiKTeX\tex\generic\pdftexcmds\pdftexcmds.sty
+INPUT C:\Users\brigh\AppData\Local\Programs\MiKTeX\tex\generic\pdftexcmds\pdftexcmds.sty
+INPUT C:\Users\brigh\AppData\Local\Programs\MiKTeX\tex\generic\infwarerr\infwarerr.sty
+INPUT C:\Users\brigh\AppData\Local\Programs\MiKTeX\tex\generic\infwarerr\infwarerr.sty
+INPUT C:\Users\brigh\AppData\Local\Programs\MiKTeX\tex\generic\pdftexcmds\pdftexcmds.lua
+INPUT C:\Users\brigh\AppData\Local\Programs\MiKTeX\tex\latex\hycolor\hycolor.sty
+INPUT C:\Users\brigh\AppData\Local\Programs\MiKTeX\tex\latex\hycolor\hycolor.sty
+INPUT C:\Users\brigh\AppData\Local\Programs\MiKTeX\tex\latex\auxhook\auxhook.sty
+INPUT C:\Users\brigh\AppData\Local\Programs\MiKTeX\tex\latex\auxhook\auxhook.sty
+INPUT C:\Users\brigh\AppData\Local\Programs\MiKTeX\tex\latex\hyperref\nameref.sty
+INPUT C:\Users\brigh\AppData\Local\Programs\MiKTeX\tex\latex\hyperref\nameref.sty
+INPUT C:\Users\brigh\AppData\Local\Programs\MiKTeX\tex\latex\refcount\refcount.sty
+INPUT C:\Users\brigh\AppData\Local\Programs\MiKTeX\tex\latex\refcount\refcount.sty
+INPUT C:\Users\brigh\AppData\Local\Programs\MiKTeX\tex\generic\gettitlestring\gettitlestring.sty
+INPUT C:\Users\brigh\AppData\Local\Programs\MiKTeX\tex\generic\gettitlestring\gettitlestring.sty
+INPUT C:\Users\brigh\AppData\Local\Programs\MiKTeX\tex\latex\kvoptions\kvoptions.sty
+INPUT C:\Users\brigh\AppData\Local\Programs\MiKTeX\tex\latex\kvoptions\kvoptions.sty
+INPUT C:\Users\brigh\AppData\Local\Programs\MiKTeX\tex\latex\etoolbox\etoolbox.sty
+INPUT C:\Users\brigh\AppData\Local\Programs\MiKTeX\tex\latex\etoolbox\etoolbox.sty
+INPUT C:\Users\brigh\AppData\Local\Programs\MiKTeX\tex\latex\hyperref\pd1enc.def
+INPUT C:\Users\brigh\AppData\Local\Programs\MiKTeX\tex\latex\hyperref\pd1enc.def
+INPUT C:\Users\brigh\AppData\Local\Programs\MiKTeX\tex\generic\intcalc\intcalc.sty
+INPUT C:\Users\brigh\AppData\Local\Programs\MiKTeX\tex\generic\intcalc\intcalc.sty
+INPUT C:\Users\brigh\AppData\Local\Programs\MiKTeX\tex\latex\hyperref\puenc.def
+INPUT C:\Users\brigh\AppData\Local\Programs\MiKTeX\tex\latex\hyperref\puenc.def
+INPUT C:\Users\brigh\AppData\Local\Programs\MiKTeX\tex\latex\url\url.sty
+INPUT C:\Users\brigh\AppData\Local\Programs\MiKTeX\tex\latex\url\url.sty
+INPUT C:\Users\brigh\AppData\Local\Programs\MiKTeX\tex\generic\bitset\bitset.sty
+INPUT C:\Users\brigh\AppData\Local\Programs\MiKTeX\tex\generic\bitset\bitset.sty
+INPUT C:\Users\brigh\AppData\Local\Programs\MiKTeX\tex\generic\bigintcalc\bigintcalc.sty
+INPUT C:\Users\brigh\AppData\Local\Programs\MiKTeX\tex\generic\bigintcalc\bigintcalc.sty
+INPUT C:\Users\brigh\AppData\Local\Programs\MiKTeX\tex\latex\base\atbegshi-ltx.sty
+INPUT C:\Users\brigh\AppData\Local\Programs\MiKTeX\tex\latex\base\atbegshi-ltx.sty
+INPUT C:\Users\brigh\AppData\Local\Programs\MiKTeX\tex\latex\hyperref\hluatex.def
+INPUT C:\Users\brigh\AppData\Local\Programs\MiKTeX\tex\latex\hyperref\hluatex.def
+INPUT C:\Users\brigh\AppData\Local\Programs\MiKTeX\tex\generic\stringenc\stringenc.sty
+INPUT C:\Users\brigh\AppData\Local\Programs\MiKTeX\tex\generic\stringenc\stringenc.sty
+INPUT C:\Users\brigh\AppData\Local\Programs\MiKTeX\tex\latex\base\atveryend-ltx.sty
+INPUT C:\Users\brigh\AppData\Local\Programs\MiKTeX\tex\latex\base\atveryend-ltx.sty
+INPUT C:\Users\brigh\AppData\Local\Programs\MiKTeX\tex\latex\rerunfilecheck\rerunfilecheck.sty
+INPUT C:\Users\brigh\AppData\Local\Programs\MiKTeX\tex\latex\rerunfilecheck\rerunfilecheck.sty
+INPUT C:\Users\brigh\AppData\Local\Programs\MiKTeX\tex\generic\uniquecounter\uniquecounter.sty
+INPUT C:\Users\brigh\AppData\Local\Programs\MiKTeX\tex\generic\uniquecounter\uniquecounter.sty
+INPUT C:\Users\brigh\AppData\Local\Programs\MiKTeX\tex\latex\xcolor\xcolor.sty
+INPUT C:\Users\brigh\AppData\Local\Programs\MiKTeX\tex\latex\xcolor\xcolor.sty
+INPUT C:\Users\brigh\AppData\Local\Programs\MiKTeX\tex\latex\graphics-cfg\color.cfg
+INPUT C:\Users\brigh\AppData\Local\Programs\MiKTeX\tex\latex\graphics-cfg\color.cfg
+INPUT C:\Users\brigh\AppData\Local\Programs\MiKTeX\tex\latex\graphics\mathcolor.ltx
+INPUT C:\Users\brigh\AppData\Local\Programs\MiKTeX\tex\latex\graphics\mathcolor.ltx
+INPUT C:\Users\brigh\AppData\Local\Programs\MiKTeX\tex\latex\colortbl\colortbl.sty
+INPUT C:\Users\brigh\AppData\Local\Programs\MiKTeX\tex\latex\colortbl\colortbl.sty
+INPUT C:\Users\brigh\AppData\Local\Programs\MiKTeX\tex\latex\tools\array.sty
+INPUT C:\Users\brigh\AppData\Local\Programs\MiKTeX\tex\latex\tools\array.sty
+INPUT C:\Users\brigh\AppData\Local\Programs\MiKTeX\tex\latex\graphics\dvipsnam.def
+INPUT C:\Users\brigh\AppData\Local\Programs\MiKTeX\tex\latex\graphics\dvipsnam.def
+INPUT C:\Users\brigh\AppData\Local\Programs\MiKTeX\tex\latex\makecell\makecell.sty
+INPUT C:\Users\brigh\AppData\Local\Programs\MiKTeX\tex\latex\makecell\makecell.sty
+INPUT C:\Users\brigh\AppData\Local\Programs\MiKTeX\tex\latex\cite\cite.sty
+INPUT C:\Users\brigh\AppData\Local\Programs\MiKTeX\tex\latex\cite\cite.sty
+INPUT C:\Users\brigh\AppData\Local\Programs\MiKTeX\tex\latex\geometry\geometry.sty
+INPUT C:\Users\brigh\AppData\Local\Programs\MiKTeX\tex\latex\geometry\geometry.sty
+INPUT C:\Users\brigh\AppData\Local\Programs\MiKTeX\tex\generic\iftex\ifvtex.sty
+INPUT C:\Users\brigh\AppData\Local\Programs\MiKTeX\tex\generic\iftex\ifvtex.sty
+INPUT C:\Users\brigh\AppData\Local\Programs\MiKTeX\tex\latex\geometry\geometry.cfg
+INPUT C:\Users\brigh\AppData\Local\Programs\MiKTeX\tex\latex\geometry\geometry.cfg
+INPUT C:\Users\brigh\AppData\Local\Programs\MiKTeX\tex\latex\l3backend\l3backend-luatex.def
+INPUT C:\Users\brigh\AppData\Local\Programs\MiKTeX\tex\latex\l3backend\l3backend-luatex.def
+INPUT C:\Users\brigh\AppData\Local\Programs\MiKTeX\tex\latex\l3backend\l3backend-luatex.lua
+INPUT .\report.aux
+INPUT .\report.aux
+OUTPUT report.aux
+OUTPUT report.aux
+INPUT C:\Users\brigh\AppData\Local\Programs\MiKTeX\tex\latex\base\ts1cmr.fd
+INPUT C:\Users\brigh\AppData\Local\Programs\MiKTeX\tex\latex\base\ts1cmr.fd
+INPUT C:\Users\brigh\AppData\Local\Programs\MiKTeX\tex\context\base\mkii\supp-pdf.mkii
+INPUT C:\Users\brigh\AppData\Local\Programs\MiKTeX\tex\context\base\mkii\supp-pdf.mkii
+INPUT C:\Users\brigh\AppData\Local\Programs\MiKTeX\tex\latex\epstopdf-pkg\epstopdf-base.sty
+INPUT C:\Users\brigh\AppData\Local\Programs\MiKTeX\tex\latex\epstopdf-pkg\epstopdf-base.sty
+INPUT C:\Users\brigh\AppData\Local\Programs\MiKTeX\tex\latex\00miktex\epstopdf-sys.cfg
+INPUT C:\Users\brigh\AppData\Local\Programs\MiKTeX\tex\latex\00miktex\epstopdf-sys.cfg
+INPUT .\report.out
+INPUT .\report.out
+INPUT .\report.out
+INPUT .\report.out
+OUTPUT report.pdf
+OUTPUT report.pdf
+OUTPUT report.out
+OUTPUT report.out
+INPUT C:\Users\brigh\AppData\Local\MiKTeX\luatex-cache\generic\fonts\otl\lmroman17-regular.luc
+INPUT C:\Users\brigh\AppData\Local\MiKTeX\luatex-cache\generic\fonts\otl\lmroman12-regular.luc
+INPUT C:\Users\brigh\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmr12.tfm
+INPUT C:\Users\brigh\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmr12.tfm
+INPUT C:\Users\brigh\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmr8.tfm
+INPUT C:\Users\brigh\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmr8.tfm
+INPUT C:\Users\brigh\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmr6.tfm
+INPUT C:\Users\brigh\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmr6.tfm
+INPUT C:\Users\brigh\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmmi12.tfm
+INPUT C:\Users\brigh\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmmi12.tfm
+INPUT C:\Users\brigh\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmmi8.tfm
+INPUT C:\Users\brigh\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmmi8.tfm
+INPUT C:\Users\brigh\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmmi6.tfm
+INPUT C:\Users\brigh\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmmi6.tfm
+INPUT C:\Users\brigh\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmsy10.tfm
+INPUT C:\Users\brigh\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmsy10.tfm
+INPUT C:\Users\brigh\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmsy8.tfm
+INPUT C:\Users\brigh\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmsy8.tfm
+INPUT C:\Users\brigh\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmsy6.tfm
+INPUT C:\Users\brigh\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmsy6.tfm
+INPUT C:\Users\brigh\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmex10.tfm
+INPUT C:\Users\brigh\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmex10.tfm
+INPUT C:\Users\brigh\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\cmextra\cmex8.tfm
+INPUT C:\Users\brigh\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\cmextra\cmex8.tfm
+INPUT C:\Users\brigh\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\cmextra\cmex7.tfm
+INPUT C:\Users\brigh\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\cmextra\cmex7.tfm
+INPUT C:\Users\brigh\AppData\Local\MiKTeX\luatex-cache\generic\fonts\otl\lmroman12-bold.luc
+INPUT C:\Users\brigh\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmr10.tfm
+INPUT C:\Users\brigh\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmr10.tfm
+INPUT C:\Users\brigh\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmr7.tfm
+INPUT C:\Users\brigh\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmr7.tfm
+INPUT C:\Users\brigh\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmr5.tfm
+INPUT C:\Users\brigh\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmr5.tfm
+INPUT C:\Users\brigh\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmmi10.tfm
+INPUT C:\Users\brigh\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmmi10.tfm
+INPUT C:\Users\brigh\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmmi7.tfm
+INPUT C:\Users\brigh\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmmi7.tfm
+INPUT C:\Users\brigh\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmmi5.tfm
+INPUT C:\Users\brigh\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmmi5.tfm
+INPUT C:\Users\brigh\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmsy10.tfm
+INPUT C:\Users\brigh\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmsy10.tfm
+INPUT C:\Users\brigh\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmsy7.tfm
+INPUT C:\Users\brigh\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmsy7.tfm
+INPUT C:\Users\brigh\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmsy5.tfm
+INPUT C:\Users\brigh\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmsy5.tfm
+INPUT C:\Users\brigh\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmex10.tfm
+INPUT C:\Users\brigh\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmex10.tfm
+INPUT C:\Users\brigh\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\cmextra\cmex7.tfm
+INPUT C:\Users\brigh\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\cmextra\cmex7.tfm
+INPUT C:\Users\brigh\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\cmextra\cmex7.tfm
+INPUT C:\Users\brigh\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\cmextra\cmex7.tfm
+INPUT C:\Users\brigh\AppData\Local\MiKTeX\luatex-cache\generic\fonts\otl\lmroman10-italic.luc
+INPUT C:\Users\brigh\AppData\Local\MiKTeX\luatex-cache\generic\fonts\otl\lmroman7-regular.luc
+INPUT C:\Users\brigh\AppData\Local\MiKTeX\luatex-cache\generic\fonts\otl\lmroman8-regular.luc
+INPUT C:\Users\brigh\AppData\Local\MiKTeX\luatex-cache\generic\fonts\otl\lmroman6-regular.luc
+INPUT C:\Users\brigh\AppData\Local\MiKTeX\luatex-cache\generic\fonts\otl\lmroman10-bold.luc
+INPUT C:\Users\brigh\AppData\Local\MiKTeX\fonts\map\pdftex\pdftex.map
+INPUT ..\figures\UAV Comparison (experimental).png
+INPUT ..\figures\UAV Comparison (experimental).png
+INPUT ..\figures\UAV Comparison (experimental).png
+INPUT ..\figures\UAV Comparison (experimental).png
+INPUT ..\figures\UAV Difference Comparison (experimental).png
+INPUT ..\figures\UAV Difference Comparison (experimental).png
+INPUT ..\figures\UAV Difference Comparison (experimental).png
+INPUT ..\figures\UAV Difference Comparison (experimental).png
+INPUT ..\figures\UAV Comparison (experimental).png
+INPUT ..\figures\Prop Efficiency vs RPM (experimental).png
+INPUT ..\figures\Prop Efficiency vs RPM (experimental).png
+INPUT ..\figures\Prop Efficiency vs RPM (experimental).png
+INPUT ..\figures\Prop Efficiency vs RPM (experimental).png
+INPUT ..\figures\Prop Comparison (kV490).png
+INPUT ..\figures\Prop Comparison (kV490).png
+INPUT ..\figures\Prop Comparison (kV490).png
+INPUT ..\figures\Prop Comparison (kV490).png
+INPUT ..\figures\UAV Difference Comparison (experimental).png
+INPUT ..\figures\Prop Difference Comparison (kV490).png
+INPUT ..\figures\Prop Difference Comparison (kV490).png
+INPUT ..\figures\Prop Difference Comparison (kV490).png
+INPUT ..\figures\Prop Difference Comparison (kV490).png
+INPUT ..\figures\Prop Comparison (experimental).png
+INPUT ..\figures\Prop Comparison (experimental).png
+INPUT ..\figures\Prop Comparison (experimental).png
+INPUT ..\figures\Prop Comparison (experimental).png
+INPUT ..\figures\Prop Difference Comparison (experimental).png
+INPUT ..\figures\Prop Difference Comparison (experimental).png
+INPUT ..\figures\Prop Difference Comparison (experimental).png
+INPUT ..\figures\Prop Difference Comparison (experimental).png
+INPUT ..\figures\Prop Efficiency vs RPM (experimental).png
+INPUT ..\figures\Prop Comparison (kV490).png
+INPUT ..\figures\Prop Difference Comparison (kV490).png
+INPUT ..\figures\Prop Comparison (experimental).png
+INPUT ..\figures\Prop Difference Comparison (experimental).png
+INPUT C:\Users\brigh\AppData\Local\MiKTeX\luatex-cache\generic\fonts\otl\lmroman5-regular.luc
+INPUT .\report.bbl
+INPUT .\report.bbl
+INPUT .\report.aux
+INPUT .\report.aux
+INPUT C:\Users\brigh\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmmi10.pfb
+INPUT C:\Users\brigh\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmmi10.pfb
+INPUT C:\Users\brigh\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmmi5.pfb
+INPUT C:\Users\brigh\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmmi5.pfb
+INPUT C:\Users\brigh\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmmi7.pfb
+INPUT C:\Users\brigh\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmmi7.pfb
+INPUT C:\Users\brigh\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmmi8.pfb
+INPUT C:\Users\brigh\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmmi8.pfb
+INPUT C:\Users\brigh\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmr10.pfb
+INPUT C:\Users\brigh\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmr10.pfb
+INPUT C:\Users\brigh\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmr5.pfb
+INPUT C:\Users\brigh\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmr5.pfb
+INPUT C:\Users\brigh\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmr7.pfb
+INPUT C:\Users\brigh\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmr7.pfb
+INPUT C:\Users\brigh\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmr8.pfb
+INPUT C:\Users\brigh\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmr8.pfb
+INPUT C:\Users\brigh\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmsy10.pfb
+INPUT C:\Users\brigh\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmsy10.pfb
+INPUT C:\Users\brigh\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmsy7.pfb
+INPUT C:\Users\brigh\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmsy7.pfb

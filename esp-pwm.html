@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            /* box-sizing: border-box; */
+        }
+        
+        .container-wrapper {
+            width: 100%;
+            max-width: 600px;
+            text-align: center;
+        }
+
+        .container {
+            margin-bottom: 20px;
+            /* box-sizing: border-box; */
+        }
+
+        .slider {
+            width: 100%;
+            max-width: 300px;
+        }
+
+        .button {
+            display: inline-block;
+            padding: 10px 20px;
+            font-size: 20px;
+            cursor: pointer;
+            text-align: center;
+            text-decoration: none;
+            outline: none;
+            color: #fff;
+            background-color: #4CAF50;
+            border: none;
+            border-radius: 15px;
+            box-shadow: 0 9px #999;
+        }
+
+        .button:hover {
+            background-color: #3e8e41;
+        }
+
+        .button:active {
+            background-color: #3e8e41;
+            box-shadow: 0 5px #666;
+            transform: translateY(4px);
+        }
+
+        #escKillButton, #servoKillButton {
+            background-color: red;
+            color: white;
+            padding: 20px 40px;
+            font-size: 24px;
+            margin-top: 20px;
+        }
+
+        hr {
+            border: 1px solid #ccc;
+            margin: 20px 0;
+        }
+
+        @media screen and (orientation: portrait) {
+            .container-wrapper {
+                max-width: 600px;
+                flex-direction: column;
+            }
+
+            .container {
+                width: 100%;
+                margin-bottom: 20px;
+            }
+
+            .bottom-section {
+                display: block;
+            }
+        }
+
+        @media screen and (orientation: landscape) {
+            .container-wrapper {
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                align-items: flex-start;
+                max-width: 1200px;
+                flex-wrap: wrap;
+            }
+
+            .container {
+                width: 45%;
+                margin-bottom: 0;
+                box-sizing: border-box;
+            }
+
+            .bottom-section {
+                width: 100%;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                flex-wrap: wrap;
+                margin-top: 20px;
+            }
+
+            hr {
+                display: none;
+            }
+
+            .container-wrapper::before {
+                content: "";
+                display: block;
+                width: 1px;
+                height: 100%;
+                background-color: #ccc;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container-wrapper">
+        <div class="container">
+            <h1>ESC Control Center</h1>
+            <p>Pulse Width: <span id="escPulse">1100</span>&#956;s</p>
+            <input type="range" min="1100" max="1850" class="slider" id="escSlider" onchange="esc(this.value)" value="1100" />
+            <br /><br />
+            <button class="button" id="escUpButton">Up</button>
+            <button class="button" id="escDownButton">Down</button>
+            <br /><br />
+            <button class="button" id="escButton_25" style="background-color: green; color: white;">25%</button>
+            <button class="button" id="escButton_50" style="background-color: green; color: white;">50%</button>
+            <button class="button" id="escButton_75" style="background-color: green; color: white;">75%</button>
+            <button class="button" id="escMaxButton" style="background-color: green; color: white;">MAX</button>
+            <br /><br />
+            <button class="button" id="escKillButton">KILL</button>
+            <audio id="killSound" src="https://audio.jukehost.co.uk/WZouY1JxlTfazBV9wwZeHlW60jgBsGVa"></audio>
+        </div>
+        <hr>
+        <div class="container">
+            <h1>Servo Control Center</h1>
+            <p>Angle: <span id="servoAngle">30</span>&#176;</p>
+            <input type="range" min="30" max="160" class="slider" id="servoSlider" onchange="servo(this.value)" value="30" />
+            <br /><br />
+            <button class="button" id="servoUpButton" style="background-color: blue; color: white;">Up</button>
+            <button class="button" id="servoDownButton" style="background-color: blue; color: white;">Down</button>
+            <br /><br />
+            <button class="button" id="servoButton_25" style="background-color: blue; color: white;">25%</button>
+            <button class="button" id="servoButton_50" style="background-color: blue; color: white;">50%</button>
+            <button class="button" id="servoButton_75" style="background-color: blue; color: white;">75%</button>
+            <button class="button" id="servoMaxButton" style="background-color: blue; color: white;">MAX</button>
+            <br /><br />
+            <button class="button" id="servoKillButton">KILL</button>
+            <audio id="killSound" src="https://audio.jukehost.co.uk/WZouY1JxlTfazBV9wwZeHlW60jgBsGVa"></audio>
+        </div>
+        <div class="bottom-section">
+            <div class="container">
+                <p>Alternator Voltage: <span id="alternatorVoltage"></span> V</p>
+                <p>Battery Voltage: <span id="batteryVoltage"></span> V</p>
+                <p>Engine Temperature: <span id="engineTemperature"></span>&#176;F</p>
+            </div>
+        </div>
+    </div>
+</body>
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script>
+        var escSlider = document.getElementById("escSlider");
+        var escP = document.getElementById("escPulse");
+        escP.innerHTML = escSlider.value;
+        escSlider.oninput = function() { 
+            escP.innerHTML = this.value; 
+            esc(this.value); 
+        };
+        $.ajaxSetup({timeout: 1000}); 
+        function esc(pulse) { 
+            $.get("/?escValue=" + pulse + "&"); 
+        }
+        document.getElementById("escUpButton").addEventListener("click", function() { adjustESC(25); });
+        document.getElementById("escDownButton").addEventListener("click", function() { adjustESC(-25); });
+        document.getElementById("escButton_25").addEventListener("click", function() { 
+            escSlider.value = "1237"; 
+            escP.innerHTML = "1237"; 
+            esc("1237"); 
+        });
+        document.getElementById("escButton_50").addEventListener("click", function() { 
+            escSlider.value = "1475"; 
+            escP.innerHTML = "1475"; 
+            esc("1475"); 
+        });
+        document.getElementById("escButton_75").addEventListener("click", function() { 
+            escSlider.value = "1712"; 
+            escP.innerHTML = "1712"; 
+            esc("1712"); 
+        });
+        document.getElementById("escMaxButton").addEventListener("click", function() { 
+            escSlider.value = "1850"; 
+            escP.innerHTML = "1850"; 
+            esc("1850"); 
+        });
+        document.getElementById("escKillButton").addEventListener("click", function() { 
+            escSlider.value = "1100"; 
+            escP.innerHTML = "1100"; 
+            esc("1100"); 
+            var audio = document.getElementById('killSound'); 
+            audio.play(); 
+        });
+        function adjustESC(offset) { 
+            var newValue = parseInt(escP.innerHTML) + offset;
+            if (newValue < 1100) { newValue = 1100; }
+            if (newValue > 1850) { newValue = 1850; }
+            escSlider.value = newValue; 
+            escP.innerHTML = newValue; 
+            esc(newValue); 
+        }
+
+        var servoSlider = document.getElementById("servoSlider");
+        var servoA = document.getElementById("servoAngle");
+        servoA.innerHTML = servoSlider.value;
+        servoSlider.oninput = function() { 
+            servoA.innerHTML = this.value; 
+            servo(this.value); 
+        };
+        $.ajaxSetup({timeout: 1000}); 
+        function servo(angle) { 
+            $.get("/?servoValue=" + angle + "&"); 
+        }
+        document.getElementById("servoUpButton").addEventListener("click", function() { adjustServo(5); });
+        document.getElementById("servoDownButton").addEventListener("click", function() { adjustServo(-5); });
+        document.getElementById("servoButton_25").addEventListener("click", function() { 
+            servoSlider.value = "62"; 
+            servoA.innerHTML = "62"; 
+            servo("62"); 
+        });
+        document.getElementById("servoButton_50").addEventListener("click", function() { 
+            servoSlider.value = "95"; 
+            servoA.innerHTML = "95"; 
+            servo("95"); 
+        });
+        document.getElementById("servoButton_75").addEventListener("click", function() { 
+            servoSlider.value = "127"; 
+            servoA.innerHTML = "127"; 
+            servo("127"); 
+        });
+        document.getElementById("servoMaxButton").addEventListener("click", function() { 
+            servoSlider.value = "160"; 
+            servoA.innerHTML = "160"; 
+            servo("160"); 
+        });
+        document.getElementById("servoKillButton").addEventListener("click", function() { 
+            servoSlider.value = "30"; 
+            servoA.innerHTML = "30"; 
+            servo("30"); 
+            var audio = document.getElementById('killSound'); 
+            audio.play(); 
+        });
+        function adjustServo(offset) { 
+            var newValue = parseInt(servoA.innerHTML) + offset;
+            if (newValue < 30) { newValue = 30; }
+            if (newValue > 160) { newValue = 160; }
+            servoSlider.value = newValue; 
+            servoA.innerHTML = newValue; 
+            servo(newValue); 
+        }
+    </script>
+</html>

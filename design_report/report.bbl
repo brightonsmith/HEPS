@@ -1,0 +1,15 @@
+\begin{thebibliography}{1}
+
+\bibitem{GUDMUNDSSON2014581}
+Snorri Gudmundsson.
+\newblock Chapter 14 - the anatomy of the propeller.
+\newblock In Snorri Gudmundsson, editor, {\em General Aviation Aircraft
+  Design}, pages 581--659. Butterworth-Heinemann, Boston, 2014.
+
+\bibitem{python}
+Qingkai Kong, Timmy Siauw, and Alexandre Bayen.
+\newblock {\em Python Numerical Methods: A Guide for Engineers and Scientists}.
+\newblock Academic Press, 2020.
+\newblock Section 17.5: Newton's Polynomial Interpolation.
+
+\end{thebibliography}
